@@ -9,9 +9,22 @@ public class EmployeeDataService {
     public static List<Employee> getEmployees() {
         List<Employee> employees = new ArrayList<>();
 
-        employees.add(new Employee(231, "Jiya ", "Brein", LocalDate.of(1990, 8, 27),
-                "Team Lead", "jiya@gmail.com", 25, 50001.0, Gender.FEMALE, "IT",
-                2014, "Bangalore", List.of("9108815727", "9798463412"), EmployeeType.FULLTIME, List.of("Java", "Spring boot")));
+        employees.add(new Employee(
+                231,
+                "Jiya ",
+                "Brein",
+                 LocalDate.of(1990, 8, 27),
+                "Team Lead",
+                "jiya@gmail.com",
+                25,
+                50001.0,
+                 Gender.FEMALE, "IT",
+                2014,
+                "Bangalore",
+                List.of("9108815727", "9798463412"),
+                EmployeeType.FULLTIME,
+                List.of("Java", "Spring boot")
+        ));
 
         employees.add(new Employee(131, "Paul", " Niksui", LocalDate.of(1991, 5, 25),
                 "Hardware Engineer", "paul@gmail.com", 26, 40001.0, Gender.MALE, "ADMIN",
